@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+    <!-- Customize your theme here. -->
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/theme_0</item>
+        <item name="colorPrimaryDark">@color/theme_0</item>
+        <item name="colorAccent">@color/theme_0</item>
+    </style>
+
+
+    <!--Theme 1-->
+    <style name="BlueTheme" parent="@style/AppTheme">
+        <item name="colorValue">@color/theme_0</item>
+        <item name="floatValue">0.35</item>
+        <item name="integerValue">33</item>
+        <item name="booleanValue">true</item>
+        <item name="dimensionValue">76dp</item>
+        <!-- 如果string类型不是填的引用而是直接放一个字符串,在布局文件中使用正常,但代码里获取的就有问题 -->
+        <item name="stringValue">@string/app_name</item>
+        <item name="referenceValue">@mipmap/ic_launcher</item>
+    </style>
+
+</resources>
